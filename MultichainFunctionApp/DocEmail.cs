@@ -26,7 +26,7 @@ namespace MultichainFunctionApp
 
             if (name == null)
             {
-                // Get request body
+                // Get request body  of.
                 dynamic data = await req.Content.ReadAsAsync<object>();
                 name = data?.name;
             }
